@@ -26,7 +26,7 @@ public class ArrayElements {
         }
         System.out.println();
     }
-    private static void divBy5(int[] array) {
+    public static void divBy5(int[] array) {
         for (int number : array) {
             if (number % 5 == 0) {
                 System.out.print(number + " ");
