@@ -8,12 +8,13 @@ public class EvenOddNumber {
 
         for (int number : array) {
             if (number % 2 == 0) {
+                System.out.print(number + " ");
                 evenCount++;
             } else {
                 oddCount++;
             }
         }
-
+        System.out.println();
         System.out.println("The array has " + oddCount + " odd numbers and " + evenCount + " even numbers.");
     }
 }
