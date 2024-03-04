@@ -28,7 +28,11 @@ public class Candy {
 
     public void setQuantity(int quantity) {
         if (quantity <= 0) {
+<<<<<<< HEAD
             System.err.println("Quantity cannot be zero or negative.");
+=======
+            System.out.println("Quantity cannot be zero or negative.");
+>>>>>>> origin/master
             System.exit(1);
     } else {
             this.quantity = quantity;
@@ -41,7 +45,11 @@ public class Candy {
 
     public void setPrice(double price) {
         if (price < 0) {
+<<<<<<< HEAD
             System.err.println("Price cannot be negative.");
+=======
+            System.out.println("Price cannot be negative.");
+>>>>>>> origin/master
             System.exit(1);
         } else if (price == 0) {
             System.out.println("Free Item");
@@ -50,8 +58,11 @@ public class Candy {
         }
     }
 
+<<<<<<< HEAD
 
 
+=======
+>>>>>>> origin/master
     public boolean isHasPeanuts() {
         return hasPeanuts;
     }
